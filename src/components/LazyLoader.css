@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper > div {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: rgb(44, 44, 44);
+}
