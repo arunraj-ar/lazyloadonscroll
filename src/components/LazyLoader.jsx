@@ -18,7 +18,6 @@ export const LazyLoader = () => {
         if (response.ok) {
           const data = await response.json();
           if (isMounted) {
-            console.log(data);
             setData((prevData) => [...prevData, ...data]);
           }
         } else {

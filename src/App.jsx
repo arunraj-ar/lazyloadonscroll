@@ -1,10 +1,14 @@
 import "./App.css";
 import { LazyLoader } from "./components/LazyLoader";
+import LazyLoaderClass from "./components/LazyLoaderClass";
 
 function App() {
   return (
     <>
-      <LazyLoader />
+      <div className="appWrapper">
+        <LazyLoader />
+        <LazyLoaderClass />
+      </div>
     </>
   );
 }
